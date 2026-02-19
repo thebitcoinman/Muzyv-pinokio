@@ -12,10 +12,12 @@ module.exports = {
         return [
           {
             html: '<i class="fa-solid fa-spin fa-spinner"></i> Running',
+            type: "link",
             href: "start.js"
           },
           {
             html: '<i class="fa-solid fa-terminal"></i> Terminal',
+            type: "link",
             href: "start.js"
           }
         ]
@@ -23,14 +25,17 @@ module.exports = {
         return [
           {
             html: '<i class="fa-solid fa-play"></i> Start',
+            type: "link",
             href: "start.js"
           },
           {
             html: '<i class="fa-solid fa-rotate"></i> Update',
+            type: "link",
             href: "update.js"
           },
           {
             html: '<i class="fa-solid fa-circle-xmark"></i> Reset',
+            type: "link",
             href: "reset.js"
           }
         ]
@@ -38,6 +43,7 @@ module.exports = {
     } else {
       return [{
         html: '<i class="fa-solid fa-plug"></i> Install',
+        type: "link",
         href: "install.js"
       }]
     }
