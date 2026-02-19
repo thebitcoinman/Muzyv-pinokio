@@ -6,7 +6,7 @@ This is the official [Pinokio](https://pinokio.computer/) 1-click installer for 
 
 If you have Pinokio installed, click the button below to install Muzyv:
 
-[![Install with Pinokio](https://github.com/pinokiocomputer/pinokio-badge/raw/main/badge.png)](pinokio://install?url=https://github.com/thebitcoinman/Muzyv-pinokio.git)
+[![Install with Pinokio](https://img.shields.io/badge/Pinokio-Install%20Muzyv-007ACC?style=for-the-badge&logo=pinokio&logoColor=white)](pinokio://install?url=https://github.com/thebitcoinman/Muzyv-pinokio.git)
 
 ## 🛠 Manual Install
 
