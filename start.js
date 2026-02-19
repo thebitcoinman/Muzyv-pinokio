@@ -4,11 +4,11 @@ module.exports = {
     {
       method: "shell.run",
       params: {
-        message: "npm run dev",
+        message: "npm run dev -- --port 5183",
         path: "app/muzyv_frontend",
         on: [
           {
-            "event": "/http:\/\/(localhost|127\.0\.0\.1):(\d+)/",
+            "event": "/http:\\/\\/(localhost|127\\.0\\.0\\.1):(\\d+)/",
             "done": true
           }
         ]
